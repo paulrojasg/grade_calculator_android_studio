@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">class3_eg</string>
+    <string name="calcula_tu_nota">Calcula tu Nota</string>
+    <string name="nombre_estudiante">Nombre estudiante</string>
+    <string name="nombre_curso">Nombre curso</string>
+    <string name="digita_nota_1">Digita nota 1</string>
+    <string name="digita_nota_2">Digita nota 2</string>
+    <string name="el_curso_ha_sido_realizado_m_s_de_una_vez">¿El curso ha sido realizado más de una vez?</string>
+    <string name="calcular_nota">Calcular Nota</string>
+    <string name="nombre">Nombre:</string>
+    <string name="curso">Curso:</string>
+    <string name="nota_1">Nota 1:</string>
+    <string name="nota_2">Nota 2:</string>
+</resources>

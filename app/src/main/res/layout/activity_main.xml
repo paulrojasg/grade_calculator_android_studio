@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+
+            android:text="@string/calcula_tu_nota" />
+
+        <EditText
+            android:id="@+id/etStudentNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="@string/nombre_estudiante"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etCourseNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="@string/nombre_curso"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etGrade1Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="@string/digita_nota_1"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etGrade2Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="@string/digita_nota_2"
+            android:inputType="numberDecimal" />
+
+        <CheckBox
+            android:id="@+id/cbRepeatedCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:text="@string/el_curso_ha_sido_realizado_m_s_de_una_vez" />
+
+        <Button
+            android:id="@+id/btnCalculateGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:enabled="false"
+            android:text="@string/calcular_nota" />
+
+        <TextView
+            android:id="@+id/tvResultStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginTop="30sp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/nombre" />
+
+        <TextView
+            android:id="@+id/tvResultCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/curso" />
+
+        <TextView
+            android:id="@+id/tvResultGrade1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/nota_1" />
+
+        <TextView
+            android:id="@+id/tvResultGrade2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/nota_2" />
+
+        <TextView
+            android:id="@+id/tvResultFinalGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Nota final: " />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
